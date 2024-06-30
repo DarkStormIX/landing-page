@@ -1,7 +1,7 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    margin: 0;
 }
 
 li {
@@ -23,6 +23,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 .headerlink {
@@ -32,5 +33,51 @@ a {
     margin-right: 8px;
 }
 
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
 
+.introduction .text {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduction .text .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.introduction .text .desc {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    border-radius: 16px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;  
+    width: 100px;
+    height: 30px;
+}
+
+.placeholder {
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder .img {
+    width: 400px;
+    height: 200px;
+}
 
