@@ -1,3 +1,4 @@
+/* general*/
 body {
     margin: 0;
     display: flex;
@@ -16,6 +17,7 @@ a {
     font-size: 18px;
 }
 
+/* header section */
 .header, .introduction, .footer {
     background-color: #1f2937;
 }
@@ -33,6 +35,7 @@ a {
     margin-right: 8px;
 }
 
+/* introduction section */
 .introduction {
     display: flex;
     justify-content: space-between;
@@ -67,7 +70,7 @@ button {
     height: 30px;
 }
 
-.placeholder {
+.introduction .placeholder {
     height: 200px;
     width: 400px;
     background-color: grey;
@@ -76,8 +79,51 @@ button {
     align-items: center;
 }
 
-.placeholder .img {
+.introduction .placeholder img {
     width: 400px;
     height: 200px;
 }
 
+/* information section */
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    gap: 30px;
+}
+
+.information .main {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information .board {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information .board .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .placeholder {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.card .desc {
+    align-self: center;
+}
+
+/* quote section */
+
+.quote {
+    
+}
